@@ -14,3 +14,9 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
     require_once dirname(__DIR__) . '/Modules/Module1/Task1/run_loose.php';
     require_once dirname(__DIR__) . '/Modules/Module1/Task1/run_strict.php';
 ?>
+
+<hr>
+<h2>Task 2</h2>
+<?php
+require_once dirname(__DIR__) . '/Modules/Module1/Task2/run.php';
+?>
