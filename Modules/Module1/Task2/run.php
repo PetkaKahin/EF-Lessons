@@ -23,7 +23,7 @@ function countAndIterate(Countable&Iterator $obj): int
 
 echo 'union с int: ' . normalizeId(123) . "<br>";
 echo 'union со string: ' . normalizeId('  abc  ') . "<br>";
-echo 'intersection ok: ' . countAndIterate(new CountableIteratorClass()) . "<br>";
+echo 'intersection: ' . countAndIterate(new CountableIteratorClass()) . "<br>";
 
 try {
     echo countAndIterate(new CountableClass()) . "<br>";

@@ -20,3 +20,9 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
 <?php
 require_once dirname(__DIR__) . '/Modules/Module1/Task2/run.php';
 ?>
+
+<hr>
+<h2>Task 3</h2>
+<?php
+require_once dirname(__DIR__) . '/Modules/Module1/Task3/run.php';
+?>
