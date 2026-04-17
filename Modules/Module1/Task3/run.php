@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Modules\Module1\Task3;
 
-$arr = range(1, 5000);
+$arr = range(1, 200000);
 
 function passByValue(array $a): int
 {
@@ -62,12 +62,3 @@ function passByReference(array &$a): int
     </tr>
 </table>
 
-<style>
-    table, td, th {
-        border: 1px solid black;
-    }
-
-    td, th {
-        padding: 10px;
-    }
-</style>
