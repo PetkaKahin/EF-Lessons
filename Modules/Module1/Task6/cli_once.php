@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Module1\CliOnce;
+namespace Modules\Module1\Task6\CliOnce;
 
 static $number = 0;
 

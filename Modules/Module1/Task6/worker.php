@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Module1\Worker;
+namespace Modules\Module1\Task6\Worker;
 
 static $number = 0;
 

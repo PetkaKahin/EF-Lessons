@@ -71,6 +71,15 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <p>docker compose exec php php Modules/Module1/Task6/cli_once.php</p>
         </div>
     </section>
+
+    <section class="task-card">
+        <div class="task-head">
+            <span class="task-label">Задание 7. Closures: use и ссылка</span>
+        </div>
+        <div class="task-output task-output--none-bg">
+            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task7/run.php'; ?>
+        </div>
+    </section>
 </main>
 
 <style>
