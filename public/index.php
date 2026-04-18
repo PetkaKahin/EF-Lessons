@@ -52,7 +52,23 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 5. Garbage Collector и циклические ссылки</span>
         </div>
         <div class="task-output task-output--none-bg">
+            <span>Для терминала:</span>
+            <div class="task-output task-output">
+                <p>docker compose exec php php Modules/Module1/Task5/run.php --mode=no-gc</p>
+                <p>docker compose exec php php Modules/Module1/Task5/run.php --mode=with-gc</p>
+            </div><br>
             <?php require_once dirname(__DIR__) . '/Modules/Module1/Task5/run.php'; ?>
+        </div>
+    </section>
+
+    <section class="task-card">
+        <div class="task-head">
+            <span class="task-label">Задание 6. FPM vs CLI vs long-running (состояние)</span>
+        </div>
+        <span>Задание для терминала:</span>
+        <div class="task-output task-output">
+            <p>docker compose exec php php Modules/Module1/Task6/worker.php</p>
+            <p>docker compose exec php php Modules/Module1/Task6/cli_once.php</p>
         </div>
     </section>
 </main>
