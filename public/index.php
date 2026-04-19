@@ -99,6 +99,15 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <?php require_once dirname(__DIR__) . '/Modules/Module1/Task9/run.php'; ?>
         </div>
     </section>
+
+    <section class="task-card">
+        <div class="task-head">
+            <span class="task-label">Задание 10. SPL: свой Iterator + Countable</span>
+        </div>
+        <div class="task-output task-output--none-bg">
+            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task10/run.php'; ?>
+        </div>
+    </section>
 </main>
 </body>
 </html>
