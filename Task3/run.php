@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Module1\Task3;
+namespace Task3;
 
 $arr = range(1, 200000);
 

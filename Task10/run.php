@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Modules\Module1\Task10;
+namespace Task10;
+
+use Task10\RangeCollection;
 
 $collection = new RangeCollection(5, 10);
 ?>

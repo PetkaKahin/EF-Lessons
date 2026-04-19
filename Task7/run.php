@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Module1\Task7;
+namespace Task7;
 
 $x = 10;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Module1\Task10;
+namespace Task10;
 
 use Countable;
 use Iterator;

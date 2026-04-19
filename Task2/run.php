@@ -2,8 +2,11 @@
 
 declare(strict_types=1);
 
-use Modules\Module1\Task2\CountableClass;
-use Modules\Module1\Task2\CountableIteratorClass;
+namespace Task2;
+
+use Countable;
+use Iterator;
+use TypeError;
 
 function normalizeId(int|string $id): string
 {

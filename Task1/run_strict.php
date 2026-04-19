@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Lesson1\Strict;
+namespace Task1\Strict;
 
 use Throwable;
 

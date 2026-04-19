@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Modules\Module1\Task5;
+namespace Task5;
 
 const ITERATIONS = 50000;
 const REPORT_EVERY = 1000;
@@ -30,15 +30,15 @@ function run(bool $isUseGc, bool $isCli): void
 }
 
 if (php_sapi_name() === 'cli') {
-    require_once dirname(__DIR__) . '/../../vendor/autoload.php';
+    require_once dirname(__DIR__) . '/vendor/autoload.php';
 
-    $arg = $argv[1];
+    $arg = $argv[1] ?? null;
 
     if ($arg === '--mode=no-gc') {
-        run(true, true);
+        run(false, true);
     }
     if ($arg === '--mode=with-gc') {
-        run(false, true);
+        run(true, true);
     }
 } else {
 ?>

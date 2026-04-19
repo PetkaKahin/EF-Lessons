@@ -1,6 +1,6 @@
 <?php
 
-namespace Lesson1\Loose;
+namespace Task1\Loose;
 
 use Throwable;
 

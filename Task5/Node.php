@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Module1\Task5;
+namespace Task5;
 
 class Node
 {

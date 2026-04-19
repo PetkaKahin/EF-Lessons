@@ -25,8 +25,8 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 1. strict_types и типизация</span>
         </div>
         <div class="task-output">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task1/run_loose.php'; ?>
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task1/run_strict.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task1/run_loose.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task1/run_strict.php'; ?>
         </div>
     </section>
 
@@ -35,7 +35,7 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 2. Union и Intersection types</span>
         </div>
         <div class="task-output">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task2/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task2/run.php'; ?>
         </div>
     </section>
 
@@ -44,7 +44,7 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 3. Copy-on-write и память</span>
         </div>
         <div class="task-output task-output--none-bg">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task3/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task3/run.php'; ?>
         </div>
     </section>
 
@@ -55,10 +55,10 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
         <div class="task-output task-output--none-bg">
             <span>Для терминала:</span>
             <div class="task-output task-output">
-                <p>docker compose exec php php Modules/Module1/Task5/run.php --mode=no-gc</p>
-                <p>docker compose exec php php Modules/Module1/Task5/run.php --mode=with-gc</p>
+                <p>docker compose exec php php Task5/run.php --mode=no-gc</p>
+                <p>docker compose exec php php Task5/run.php --mode=with-gc</p>
             </div><br>
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task5/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task5/run.php'; ?>
         </div>
     </section>
 
@@ -68,8 +68,8 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
         </div>
         <span>Задание для терминала:</span>
         <div class="task-output task-output">
-            <p>docker compose exec php php Modules/Module1/Task6/worker.php</p>
-            <p>docker compose exec php php Modules/Module1/Task6/cli_once.php</p>
+            <p>docker compose exec php php Task6/worker.php</p>
+            <p>docker compose exec php php Task6/cli_once.php</p>
         </div>
     </section>
 
@@ -78,7 +78,7 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 7. Closures: use и ссылка</span>
         </div>
         <div class="task-output task-output--none-bg">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task7/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task7/run.php'; ?>
         </div>
     </section>
 
@@ -87,7 +87,7 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 8. Generators vs массивы</span>
         </div>
         <div class="task-output task-output--none-bg">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task8/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task8/run.php'; ?>
         </div>
     </section>
 
@@ -96,7 +96,7 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 9. Errors vs Exceptions (Throwable)</span>
         </div>
         <div class="task-output task-output--none-bg">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task9/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task9/run.php'; ?>
         </div>
     </section>
 
@@ -105,7 +105,16 @@ require_once dirname(__DIR__) . '/vendor/autoload.php';
             <span class="task-label">Задание 10. SPL: свой Iterator + Countable</span>
         </div>
         <div class="task-output task-output--none-bg">
-            <?php require_once dirname(__DIR__) . '/Modules/Module1/Task10/run.php'; ?>
+            <?php require_once dirname(__DIR__) . '/Task10/run.php'; ?>
+        </div>
+    </section>
+
+    <section class="task-card">
+        <div class="task-head">
+            <span class="task-label">Задание 11. Big-O и оптимизация</span>
+        </div>
+        <div class="task-output task-output--none-bg">
+            <?php require_once dirname(__DIR__) . '/Task11/run.php'; ?>
         </div>
     </section>
 </main>

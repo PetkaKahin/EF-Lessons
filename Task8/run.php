@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace Modules\Module1\Task8;
+namespace Task8;
 
 use Generator;
 
