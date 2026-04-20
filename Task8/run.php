@@ -64,7 +64,7 @@ $timeEnd = microtime(true);
         $memoryStart = memory_get_usage();
         $timeStart = microtime(true);
 
-        $source = arraySource($n);
+        $source = generatorSource($n);
 
         foreach ($source as $item) {
             $sum += $item;
